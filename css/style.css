@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  display: flex;
+  height: 100vh;
+}
+
+.mdc-drawer-app-content {
+  flex: auto;
+  overflow: auto;
+  position: relative;
+}
+
+.main-content {
+  overflow: auto;
+  height: 100%;
+  padding: 18px;
+}
+
+.app-bar {
+  position: absolute;
+}
+.mdc-drawer{
+  margin-top: 65px;
+}
+.mdc-top-app-bar {
+  z-index: 7;
+}
+.logo_img{
+  height:40px;
+  width: 40px;
+  margin-left: 4px auto;
+}
+.mdc-list-item a{
+  text-decoration: none;
+}
+.mdc-menu-surface--anchor {
+    position: relative;
+    overflow: visible;
+    margin-right: 110px;
+}
+.main{
+	display: flex;
+	background-color: lightblue;
+}
+/*.firstname, .lastname, .email, .password{
+	display: block;
+}*/
+.fnm, .lnm, .eml, .pwd{
+	margin-bottom: 10px;
+	width: 500px;
+}
+.mdc-button:not(:disabled) {
+    color: #6200ee;
+    color: var(--mdc-theme-primary, #6200ee);
+    color: #fff;
+    background-color: blueviolet;
+}
